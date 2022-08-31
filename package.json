@@ -1,9 +1,10 @@
 {
-  "name": "discord.js-bot-template",
+  "name": "worlde-bot",
   "version": "1.0.0",
-  "description": "basic bot template with command handler",
-  "main": "app.js",
+  "description": "wordle",
+  "main": "index.js",
   "dependencies": {
+    "@discordjs/rest": "^1.1.0",
     "asynckit": "^0.4.0",
     "callsites": "^3.1.0",
     "combined-stream": "^1.0.8",
@@ -27,7 +28,7 @@
     "ws": "^7.5.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "index.js"
   },
   "repository": {
     "type": "git",
