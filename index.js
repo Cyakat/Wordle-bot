@@ -1,4 +1,4 @@
-const config = require("./config.json");
+const config = require("../config.json");
 const botId = config.wordleBotId;
 const token = config.wordleToken
 
